@@ -1,0 +1,1786 @@
+GlobalTracer.Robot6541.auto_Info: ***** Starting autonomous *****
+GlobalTracer.Robot6541.auto_Info: <Info name="MatchInfo" date="Sun Feb 09 15:00:44 PST 2020" type="PRACTICE" number="1" />
+GlobalTracer.Robot6541.auto_Info: <Info name="AutoChoices" alliance="RED_ALLIANCE" startDelay="0" strategy="LOADING_ZONE_SINGLE_SKYSTONE" robotStartX="45" finishDelay="0" strafeToFoundation="false" moveFoundaton="true" parkUnderBridge="PARK_CLOSE_TO_CENTER" xTarget="4.0" yTarget="4.0" turnTarget="90" driveTime="5" drivePower="0.5" />
+GlobalTracer.CmdAutoLoadingZone6541_Info: >>> robot=Robot6541
+GlobalTracer.Robot6541.auto_Info: ***** Starting autonomous *****
+GlobalTracer.Robot6541.auto_Info: <Info name="MatchInfo" date="Sun Feb 09 15:01:55 PST 2020" type="PRACTICE" number="1" />
+GlobalTracer.Robot6541.auto_Info: <Info name="AutoChoices" alliance="RED_ALLIANCE" startDelay="0" strategy="LOADING_ZONE_SINGLE_SKYSTONE" robotStartX="45" finishDelay="0" strafeToFoundation="false" moveFoundaton="true" parkUnderBridge="PARK_CLOSE_TO_CENTER" xTarget="4.0" yTarget="4.0" turnTarget="90" driveTime="5" drivePower="0.5" />
+GlobalTracer.startMode_Info: Enabling Vuforia.
+GlobalTracer.triggerEvent_Info: TrcMotor encoder reset! motor=elevatorMotor,pos=0.00
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="0.152" tag=">>>>>" state="MOVE_CLOSER" xPos=" 39.00" xTarget=" 39.00" yPos="  9.00" yTarget=" 23.00" heading="  0.00" headingTarget="  0.00" volt="12.87V(12.87V)" />
+GlobalTracer.Battery_Info: Voltage=12.93V (12.87V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.059" pose="(x=39.0,y=9.0,angle=-0.2)" />
+GlobalTracer.printPidInfo_Info: [0.225] encoderXPidCtrl: Target=   0.0, Input=   0.0, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.225] encoderYPidCtrl: Target=  14.0, Input=   0.0, Error=  14.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.226] gyroPidCtrl: Target=   0.0, Input=   0.0, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.41V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.234" pose="(x=38.8,y=9.2,angle=-0.2)" />
+GlobalTracer.printPidInfo_Info: [0.285] encoderXPidCtrl: Target=   0.0, Input=  -0.2, Error=   0.2, Output= 0.025(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.286] encoderYPidCtrl: Target=  14.0, Input=   0.2, Error=  13.8, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.287] gyroPidCtrl: Target=   0.0, Input=  -0.2, Error=   0.2, Output= 0.006(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.77V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.294" pose="(x=38.5,y=10.3,angle=-0.2)" />
+GlobalTracer.printPidInfo_Info: [0.351] encoderXPidCtrl: Target=   0.0, Input=  -0.5, Error=   0.5, Output= 0.073(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.352] encoderYPidCtrl: Target=  14.0, Input=   1.3, Error=  12.7, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.352] gyroPidCtrl: Target=   0.0, Input=  -0.2, Error=   0.2, Output= 0.004(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.356" pose="(x=38.5,y=10.3,angle=-0.2)" />
+GlobalTracer.printPidInfo_Info: [0.382] encoderXPidCtrl: Target=   0.0, Input=  -0.5, Error=   0.5, Output= 0.073(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.383] encoderYPidCtrl: Target=  14.0, Input=   1.3, Error=  12.7, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.384] gyroPidCtrl: Target=   0.0, Input=  -0.2, Error=   0.2, Output= 0.004(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.64V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.387" pose="(x=38.6,y=12.2,angle=-0.2)" />
+GlobalTracer.printPidInfo_Info: [0.438] encoderXPidCtrl: Target=   0.0, Input=  -0.4, Error=   0.4, Output= 0.025(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.443] encoderYPidCtrl: Target=  14.0, Input=   3.2, Error=  10.8, Output= 0.432(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.444] gyroPidCtrl: Target=   0.0, Input=  -0.2, Error=   0.2, Output= 0.004(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.77V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.447" pose="(x=38.6,y=12.2,angle=-0.2)" />
+GlobalTracer.printPidInfo_Info: [0.488] encoderXPidCtrl: Target=   0.0, Input=  -0.4, Error=   0.4, Output= 0.025(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.488] encoderYPidCtrl: Target=  14.0, Input=   3.2, Error=  10.8, Output= 0.432(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.489] gyroPidCtrl: Target=   0.0, Input=  -0.2, Error=   0.2, Output= 0.004(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.83V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.493" pose="(x=38.6,y=13.9,angle=-0.1)" />
+GlobalTracer.printPidInfo_Info: [0.524] encoderXPidCtrl: Target=   0.0, Input=  -0.4, Error=   0.4, Output= 0.034(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.525] encoderYPidCtrl: Target=  14.0, Input=   3.2, Error=  10.8, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.526] gyroPidCtrl: Target=   0.0, Input=  -0.2, Error=   0.2, Output= 0.004(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.531" pose="(x=38.6,y=13.9,angle=-0.1)" />
+GlobalTracer.printPidInfo_Info: [0.575] encoderXPidCtrl: Target=   0.0, Input=  -0.4, Error=   0.4, Output= 0.031(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.577] encoderYPidCtrl: Target=  14.0, Input=   4.9, Error=   9.1, Output= 0.322(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.578] gyroPidCtrl: Target=   0.0, Input=  -0.1, Error=   0.1, Output=-0.004(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.80V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.585" pose="(x=38.9,y=15.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [0.629] encoderXPidCtrl: Target=   0.0, Input=  -0.1, Error=   0.1, Output=-0.006(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.630] encoderYPidCtrl: Target=  14.0, Input=   6.7, Error=   7.3, Output= 0.260(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.631] gyroPidCtrl: Target=   0.0, Input=  -0.1, Error=   0.1, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.83V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.636" pose="(x=39.0,y=18.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [0.676] encoderXPidCtrl: Target=   0.0, Input=  -0.1, Error=   0.1, Output= 0.009(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.677] encoderYPidCtrl: Target=  14.0, Input=   6.7, Error=   7.3, Output= 0.363(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.678] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output=-0.000(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.85V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.684" pose="(x=39.0,y=18.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [0.721] encoderXPidCtrl: Target=   0.0, Input=   0.0, Error=  -0.0, Output=-0.011(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.723] encoderYPidCtrl: Target=  14.0, Input=   9.1, Error=   4.9, Output= 0.076(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.724] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.87V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.732" pose="(x=39.1,y=20.4,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [0.786] encoderXPidCtrl: Target=   0.0, Input=   0.0, Error=  -0.0, Output=-0.011(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.786] encoderYPidCtrl: Target=  14.0, Input=   9.1, Error=   4.9, Output= 0.076(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.787] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.85V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.791" pose="(x=39.1,y=20.4,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [0.832] encoderXPidCtrl: Target=   0.0, Input=   0.1, Error=  -0.1, Output=-0.014(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.836] encoderYPidCtrl: Target=  14.0, Input=  11.4, Error=   2.6, Output= 0.069(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.837] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.84V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.842" pose="(x=39.3,y=21.5,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [0.911] encoderXPidCtrl: Target=   0.0, Input=   0.3, Error=  -0.3, Output=-0.019(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.913] encoderYPidCtrl: Target=  14.0, Input=  12.5, Error=   1.5, Output=-0.003(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.915] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.84V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.922" pose="(x=39.3,y=21.5,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [0.963] encoderXPidCtrl: Target=   0.0, Input=   0.3, Error=  -0.3, Output=-0.024(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.964] encoderYPidCtrl: Target=  14.0, Input=  12.5, Error=   1.5, Output= 0.073(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [0.964] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.84V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="0.969" pose="(x=39.2,y=22.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [1.004] encoderXPidCtrl: Target=   0.0, Input=   0.2, Error=  -0.2, Output=-0.021(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [1.005] encoderYPidCtrl: Target=  14.0, Input=  13.1, Error=   0.9, Output= 0.003(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [1.006] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.125" tag=">>>>>" state="GET_TARGET_POSE" volt="12.92V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.167" tag=">>>>>" state="GET_TARGET_POSE" volt="12.67V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.198" tag=">>>>>" state="GET_TARGET_POSE" volt="12.80V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.250" tag=">>>>>" state="GET_TARGET_POSE" volt="12.80V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.295" tag=">>>>>" state="GET_TARGET_POSE" volt="12.90V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.329" tag=">>>>>" state="GET_TARGET_POSE" volt="12.85V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.371" tag=">>>>>" state="GET_TARGET_POSE" volt="12.85V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.412" tag=">>>>>" state="GET_TARGET_POSE" volt="12.90V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.455" tag=">>>>>" state="GET_TARGET_POSE" volt="12.93V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.493" tag=">>>>>" state="GET_TARGET_POSE" volt="12.94V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.536" tag=">>>>>" state="GET_TARGET_POSE" volt="12.96V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.593" tag=">>>>>" state="GET_TARGET_POSE" volt="12.93V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.622" tag=">>>>>" state="GET_TARGET_POSE" volt="12.88V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.691" tag=">>>>>" state="GET_TARGET_POSE" volt="12.86V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.745" tag=">>>>>" state="GET_TARGET_POSE" volt="12.86V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.780" tag=">>>>>" state="GET_TARGET_POSE" volt="12.93V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.834" tag=">>>>>" state="GET_TARGET_POSE" volt="12.92V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.875" tag=">>>>>" state="GET_TARGET_POSE" volt="12.92V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.914" tag=">>>>>" state="GET_TARGET_POSE" volt="12.93V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.959" tag=">>>>>" state="GET_TARGET_POSE" volt="12.93V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="1.991" tag=">>>>>" state="GET_TARGET_POSE" volt="12.86V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="2.032" tag=">>>>>" state="GET_TARGET_POSE" volt="12.87V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="2.070" tag=">>>>>" state="GET_TARGET_POSE" volt="12.86V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="2.105" tag=">>>>>" state="GET_TARGET_POSE" volt="12.86V(11.71V)" />
+GlobalTracer.getSkyStonePose_Info: ***** Skystone not found!
+GlobalTracer.GetTargetPose_Info: >>> Skystone not found, assume left.
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="2.182" tag=">>>>>" state="ALIGN_SKYSTONE" volt="12.93V(11.71V)" />
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="2.240" tag=">>>>>" state="ALIGN_SKYSTONE" xPos=" 39.11" xTarget=" 30.00" yPos=" 22.33" yTarget=" 23.00" heading=" -0.03" headingTarget="  0.00" volt="12.93V(11.71V)" />
+GlobalTracer.Battery_Info: Voltage=12.86V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.186" pose="(x=39.1,y=22.3,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.317] encoderXPidCtrl: Target=  -9.1, Input=   0.0, Error=  -9.1, Output=-0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.318] encoderYPidCtrl: Target=   0.7, Input=   0.0, Error=   0.7, Output= 0.034(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.319] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.77V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.324" pose="(x=39.0,y=22.4,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.403] encoderXPidCtrl: Target=  -9.1, Input=  -0.1, Error=  -9.0, Output=-0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.404] encoderYPidCtrl: Target=   0.7, Input=   0.0, Error=   0.6, Output= 0.032(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.405] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.57V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.410" pose="(x=39.0,y=22.4,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.456] encoderXPidCtrl: Target=  -9.1, Input=  -0.1, Error=  -9.0, Output=-0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.457] encoderYPidCtrl: Target=   0.7, Input=   0.0, Error=   0.6, Output= 0.032(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.458] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.77V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.462" pose="(x=38.0,y=22.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.496] encoderXPidCtrl: Target=  -9.1, Input=  -0.1, Error=  -9.0, Output=-0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.497] encoderYPidCtrl: Target=   0.7, Input=   0.0, Error=   0.6, Output= 0.032(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.497] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.79V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.501" pose="(x=36.1,y=22.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.547] encoderXPidCtrl: Target=  -9.1, Input=  -3.0, Error=  -6.1, Output=-0.416(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.548] encoderYPidCtrl: Target=   0.7, Input=  -0.3, Error=   1.0, Output= 0.054(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.551] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.81V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.558" pose="(x=36.1,y=22.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.601] encoderXPidCtrl: Target=  -9.1, Input=  -3.0, Error=  -6.1, Output=-0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.602] encoderYPidCtrl: Target=   0.7, Input=  -0.3, Error=   1.0, Output= 0.048(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.603] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.81V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.609" pose="(x=33.0,y=22.4,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.664] encoderXPidCtrl: Target=  -9.1, Input=  -6.1, Error=  -3.0, Output=-0.138(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.666] encoderYPidCtrl: Target=   0.7, Input=   0.1, Error=   0.6, Output= 0.012(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.666] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.80V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.672" pose="(x=31.7,y=22.5,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.735] encoderXPidCtrl: Target=  -9.1, Input=  -6.1, Error=  -3.0, Output=-0.274(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.736] encoderYPidCtrl: Target=   0.7, Input=   0.1, Error=   0.6, Output= 0.029(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.737] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.742" pose="(x=30.3,y=22.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.807] encoderXPidCtrl: Target=  -9.1, Input=  -7.5, Error=  -1.7, Output= 0.005(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.808] encoderYPidCtrl: Target=   0.7, Input=   0.2, Error=   0.5, Output= 0.019(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.809] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="2.902" tag=">>>>>" state="GOTO_SKYSTONE" xPos=" 29.58" xTarget=" 30.00" yPos=" 22.66" yTarget=" 38.00" heading=" -0.04" headingTarget="  0.00" volt="12.89V(11.71V)" />
+GlobalTracer.Battery_Info: Voltage=12.86V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.860" pose="(x=29.6,y=22.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [2.910] encoderXPidCtrl: Target=   0.4, Input=   0.0, Error=   0.4, Output= 0.038(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.911] encoderYPidCtrl: Target=  15.3, Input=   0.0, Error=  15.3, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [2.914] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="2.924" pose="(x=29.6,y=22.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.015] encoderXPidCtrl: Target=   0.4, Input=   0.0, Error=   0.4, Output= 0.035(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.016] encoderYPidCtrl: Target=  15.3, Input=   0.1, Error=  15.2, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.016] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.56V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.054" pose="(x=29.8,y=24.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.089] encoderXPidCtrl: Target=   0.4, Input=  -0.3, Error=   0.7, Output= 0.073(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.090] encoderYPidCtrl: Target=  15.3, Input=   0.9, Error=  14.5, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.092] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.097" pose="(x=29.9,y=25.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.138] encoderXPidCtrl: Target=   0.4, Input=   0.2, Error=   0.2, Output=-0.024(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.139] encoderYPidCtrl: Target=  15.3, Input=   1.4, Error=  14.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.140] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.144" pose="(x=30.0,y=27.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.199] encoderXPidCtrl: Target=   0.4, Input=   0.4, Error=   0.1, Output= 0.006(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.201] encoderYPidCtrl: Target=  15.3, Input=   3.0, Error=  12.4, Output= 0.500(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.203] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.208" pose="(x=30.2,y=28.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.262] encoderXPidCtrl: Target=   0.4, Input=   0.6, Error=  -0.2, Output=-0.030(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.263] encoderYPidCtrl: Target=  15.3, Input=   5.9, Error=   9.4, Output= 0.379(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.263] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.84V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.267" pose="(x=30.2,y=28.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.320] encoderXPidCtrl: Target=   0.4, Input=   0.6, Error=  -0.2, Output=-0.030(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.321] encoderYPidCtrl: Target=  15.3, Input=   5.9, Error=   9.4, Output= 0.379(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.322] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.77V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.331" pose="(x=30.2,y=30.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.370] encoderXPidCtrl: Target=   0.4, Input=   0.6, Error=  -0.2, Output=-0.019(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.371] encoderYPidCtrl: Target=  15.3, Input=   5.9, Error=   9.4, Output= 0.470(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.371] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.376" pose="(x=30.1,y=31.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.413] encoderXPidCtrl: Target=   0.4, Input=   0.6, Error=  -0.2, Output=-0.019(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.414] encoderYPidCtrl: Target=  15.3, Input=   7.6, Error=   7.8, Output= 0.286(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.415] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.88V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.422" pose="(x=30.1,y=31.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.463] encoderXPidCtrl: Target=   0.4, Input=   0.5, Error=  -0.1, Output=-0.005(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.467] encoderYPidCtrl: Target=  15.3, Input=   9.2, Error=   6.1, Output= 0.184(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.468] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.88V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.472" pose="(x=30.0,y=33.5,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.516] encoderXPidCtrl: Target=   0.4, Input=   0.4, Error=  -0.0, Output= 0.003(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.517] encoderYPidCtrl: Target=  15.3, Input=  10.9, Error=   4.5, Output= 0.163(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.517] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.87V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.521" pose="(x=30.1,y=35.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.588] encoderXPidCtrl: Target=   0.4, Input=   0.5, Error=  -0.1, Output=-0.010(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.589] encoderYPidCtrl: Target=  15.3, Input=  12.5, Error=   2.8, Output= 0.085(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.590] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.90V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.599" pose="(x=29.8,y=35.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.641] encoderXPidCtrl: Target=   0.4, Input=   0.2, Error=   0.2, Output= 0.034(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.642] encoderYPidCtrl: Target=  15.3, Input=  13.2, Error=   2.1, Output= 0.065(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.643] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.89V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.651" pose="(x=29.7,y=36.4,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.697] encoderXPidCtrl: Target=   0.4, Input=   0.2, Error=   0.2, Output= 0.018(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.697] encoderYPidCtrl: Target=  15.3, Input=  13.2, Error=   2.1, Output= 0.105(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.698] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.82V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.703" pose="(x=29.7,y=36.4,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.745] encoderXPidCtrl: Target=   0.4, Input=   0.1, Error=   0.3, Output= 0.035(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.745] encoderYPidCtrl: Target=  15.3, Input=  13.7, Error=   1.6, Output= 0.049(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.746] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.82V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="3.767" pose="(x=29.6,y=36.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [3.809] encoderXPidCtrl: Target=   0.4, Input=  -0.0, Error=   0.4, Output= 0.051(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.810] encoderYPidCtrl: Target=  15.3, Input=  14.2, Error=   1.1, Output= 0.001(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [3.812] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="3.895" tag=">>>>>" state="null" volt="12.84V(11.71V)" />
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="3.920" tag=">>>>>" state="GRAB_SKYSTONE" volt="12.92V(11.71V)" />
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="4.440" tag=">>>>>" state="PULL_SKYSTONE" xPos=" 29.66" xTarget=" 30.00" yPos=" 37.30" yTarget=" 32.00" heading=" -0.04" headingTarget="  0.00" volt="12.94V(11.71V)" />
+GlobalTracer.Battery_Info: Voltage=12.86V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.395" pose="(x=29.7,y=37.3,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.494] encoderXPidCtrl: Target=   0.3, Input=   0.0, Error=   0.3, Output= 0.030(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.495] encoderYPidCtrl: Target=  -5.3, Input=   0.0, Error=  -5.3, Output=-0.265(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.495] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.499" pose="(x=29.7,y=37.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.537] encoderXPidCtrl: Target=   0.3, Input=   0.0, Error=   0.3, Output= 0.030(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.538] encoderYPidCtrl: Target=  -5.3, Input=   0.0, Error=  -5.3, Output=-0.265(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.539] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.552" pose="(x=29.7,y=36.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.600] encoderXPidCtrl: Target=   0.3, Input=   0.0, Error=   0.3, Output= 0.025(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.601] encoderYPidCtrl: Target=  -5.3, Input=  -0.2, Error=  -5.1, Output=-0.233(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.601] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.79V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.606" pose="(x=29.8,y=36.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.639] encoderXPidCtrl: Target=   0.3, Input=   0.1, Error=   0.2, Output= 0.016(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.640] encoderYPidCtrl: Target=  -5.3, Input=  -1.3, Error=  -4.0, Output=-0.163(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.641] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.80V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.645" pose="(x=29.9,y=35.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.691] encoderXPidCtrl: Target=   0.3, Input=   0.2, Error=   0.1, Output= 0.005(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.692] encoderYPidCtrl: Target=  -5.3, Input=  -2.1, Error=  -3.2, Output=-0.121(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.693] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.82V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.698" pose="(x=29.9,y=35.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.733] encoderXPidCtrl: Target=   0.3, Input=   0.2, Error=   0.1, Output= 0.005(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.734] encoderYPidCtrl: Target=  -5.3, Input=  -2.1, Error=  -3.2, Output=-0.121(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.735] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.83V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.739" pose="(x=29.9,y=34.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.790] encoderXPidCtrl: Target=   0.3, Input=   0.2, Error=   0.1, Output= 0.011(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.791] encoderYPidCtrl: Target=  -5.3, Input=  -2.1, Error=  -3.2, Output=-0.162(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.792] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.82V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.800" pose="(x=30.0,y=34.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.837] encoderXPidCtrl: Target=   0.3, Input=   0.3, Error=   0.0, Output=-0.002(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.838] encoderYPidCtrl: Target=  -5.3, Input=  -3.1, Error=  -2.2, Output=-0.066(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.839] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.85V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.844" pose="(x=30.0,y=33.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.895] encoderXPidCtrl: Target=   0.3, Input=   0.4, Error=  -0.0, Output=-0.006(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.895] encoderYPidCtrl: Target=  -5.3, Input=  -3.7, Error=  -1.6, Output=-0.041(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.896] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.88V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.900" pose="(x=30.1,y=33.3,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [4.942] encoderXPidCtrl: Target=   0.3, Input=   0.4, Error=  -0.1, Output=-0.011(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.943] encoderYPidCtrl: Target=  -5.3, Input=  -4.0, Error=  -1.3, Output=-0.042(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [4.943] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.87V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="4.947" pose="(x=30.1,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.005] encoderXPidCtrl: Target=   0.3, Input=   0.4, Error=  -0.1, Output=-0.007(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.006] encoderYPidCtrl: Target=  -5.3, Input=  -4.3, Error=  -1.0, Output=-0.034(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.007] gyroPidCtrl: Target=   0.0, Input=  -0.0, Error=   0.0, Output= 0.001(-0.500/0.500)
+GlobalTracer.Robot6541_Info: <Event name="StateInfo" time="5.063" tag=">>>>>" state="TURN_TOWARDS_FOUNDATION" xPos=" 30.12" xTarget=" 30.12" yPos=" 32.81" yTarget=" 32.81" heading=" -0.04" headingTarget=" 90.00" volt="12.91V(11.71V)" />
+GlobalTracer.Battery_Info: Voltage=12.90V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.010" pose="(x=30.1,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.076] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.076] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.077] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.56V (11.71V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.085" pose="(x=30.1,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.131] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.131] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.132] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.35V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.135" pose="(x=30.0,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.173] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.174] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.174] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.60V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.181" pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.220] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.222] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.223] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.229" pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.249] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.249] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.258] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.262" pose="(x=29.8,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.292] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.293] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.294] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.298" pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.331] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.331] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.332] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.335" pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.364] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.365] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.366] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.371" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.403] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.403] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.404] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.408" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.437] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.438] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.440] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.444" pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.480] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.480] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.481] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.491" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.523] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.524] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.525] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.530" pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.568] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.568] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.569] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.573" pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.603] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.603] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.606] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.608" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.638] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.640] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.641] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.645" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.673] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.675] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.676] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.682" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.707] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.707] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.708] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.709" pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.742] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.744] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.745] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.749" pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.777] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.777] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.778] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.782" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.809] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.809] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.810] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.814" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.844] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.845] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.845] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.846" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.883] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.886] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.886] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.894" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.929] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.930] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.931] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.942" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [5.971] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.973] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [5.974] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="5.978" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.000] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.001] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.002] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.003" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.031] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.032] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.032] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.036" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.090] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.091] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.091] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.096" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.132] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.133] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.134] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.137" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.173] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.174] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.176] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.181" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.200] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.204] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.204] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.207" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.234] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.234] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.235] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.238" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.273] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.273] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.274] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.278" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.307] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.308] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.309] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.314" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.345] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.345] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.346] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.347" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.373] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.374] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.374] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.378" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.403] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.404] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.404] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.406" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.439] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.441] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.442] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.446" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.480] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.480] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.481] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.490" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.523] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.526] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.528] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.532" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.555] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.555] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.556] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.556" pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.594] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.601] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.602] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.608" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.639] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.639] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.641] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.645" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.677] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.678] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.679] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.70V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.683" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.712] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.713] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.715] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.720" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.752] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.753] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.753] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.754" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.782] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.782] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.783] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.793" pose="(x=30.0,y=33.3,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.841] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.842] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.843] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.849" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.890] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.891] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.892] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.903" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.937] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.937] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.937] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.943" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [6.976] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.976] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [6.977] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="6.981" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.006] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.008] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.009] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.013" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.044] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.045] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.046] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.047" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.074] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.076] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.076] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.081" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.127] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.128] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.130] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.156" pose="(x=29.9,y=33.3,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.205] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.206] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.207] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.213" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.244] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.244] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.246] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.249" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.276] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.277] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.278] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.282" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.304] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.305] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.306] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.309" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.337] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.338] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.339] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.344" pose="(x=29.8,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.380] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.381] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.381] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.386" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.423] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.424] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.424] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.432" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.461] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.462] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.462] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.468" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.503] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.503] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.503] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.504" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.527] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.528] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.528] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.537" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.573] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.573] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.574] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.578" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.610] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.611] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.611] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.614" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.640] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.640] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.641] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.642" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.671] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.673] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.676] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.682" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.731] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.732] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.734] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.739" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.754] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.757] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.758] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.759" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.786] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.788] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.792] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.802" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.830] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.831] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.833] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.839" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.873] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.874] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.874] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.879" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.907] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.908] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.909] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.912" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.941] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.942] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.942] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.944" pose="(x=30.0,y=33.3,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [7.983] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.984] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [7.985] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="7.991" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.014] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.014] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.015] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.024" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.057] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.059] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.060] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.067" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.109] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.110] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.111] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.115" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.145] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.146] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.146] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.70V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.147" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.179] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.180] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.181] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.185" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.211] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.212] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.213] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.218" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.253] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.253] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.255] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.257" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.285] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.286] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.286] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.300" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.335] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.335] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.336] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.340" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.370] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.371] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.372] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.376" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.412] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.412] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.412] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.416" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.442] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.442] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.443] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.444" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.473] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.474] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.474] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.479" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.511] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.512] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.513] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.517" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.551] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.552] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.552] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.553" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.597] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.598] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.599] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.603" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.642] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.643] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.643] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.649" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.682] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.683] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.684] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.689" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.717] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.718] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.719] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.728" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.751] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.754] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.757] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.759" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.800] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.801] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.801] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.804" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.846] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.846] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.847] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.850" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.884] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.885] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.885] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.893" pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.925] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.926] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.928] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.933" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.956] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.959] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.960] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.968" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [8.994] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.995] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [8.995] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="8.996" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.023] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.024] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.026] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.034" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.062] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.063] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.063] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.075" pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.116] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.117] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.119] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.129" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.148] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.149] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.150] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.151" pose="(x=29.9,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.187] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.189] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.189] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.199" pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.233] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.234] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.235] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.239" pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.272] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.273] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.274] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.278" pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.318] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.319] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.320] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.332" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.370] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.370] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.371] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.380" pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.411] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.412] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.414] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.418" pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.447] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.447] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.448] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.449" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.482] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.483] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.484] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.488" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.518] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.519] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.519] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.524" pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.551] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.552] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.553] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.554" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.598] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.598] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.599] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.604" pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.636] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.639] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.640] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.647" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.678] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.679] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.679] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.684" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.711] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.712] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.712] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.716" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.739] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.740] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.741] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.741" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.768] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.769] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.769] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.776" pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.802] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.803] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.804] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.805" pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.850] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.850] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.851] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.854" pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.886] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.886] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.887] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.890" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.942] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.942] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.943] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.947" pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [9.972] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.974] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [9.975] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="9.978" pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.012] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.014] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.015] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.01"9 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.054] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.054] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.055] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.05"5 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.086] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.086] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.087] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.09"7 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.123] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.123] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.124] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.13"0 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.157] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.157] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.158] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.15"9 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.191] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.192] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.193] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.20"2 pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.224] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.224] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.225] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.23"3 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.259] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.260] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.261] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.26"5 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.305] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.306] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.311] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.31"6 pose="(x=30.3,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.355] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.356] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.356] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.35"7 pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.395] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.396] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.396] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.40"4 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.438] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.439] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.441] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.44"6 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.478] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.478] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.479] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.48"4 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.512] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.512] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.512] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.51"6 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.547] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.548] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.549] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.54"9 pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.584] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.584] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.584] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.58"8 pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.618] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.618] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.619] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.62"4 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.654] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.654] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.655] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.70V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.65"6 pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.692] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.693] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.694] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.69"9 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.724] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.725] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.725] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.73"5 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.759] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.760] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.761] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.76"7 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.805] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.806] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.806] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.80"7 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.835] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.840] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.840] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.84"4 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.877] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.878] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.878] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.88"2 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.924] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.925] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.926] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.93"1 pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [10.966] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.966] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [10.967] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="10.97"2 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.006] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.006] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.007] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.00"8 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.038] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.039] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.040] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.04"3 pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.079] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.079] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.080] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.08"4 pose="(x=30.0,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.109] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.109] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.110] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.11"5 pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.147] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.148] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.148] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.70V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.15"0 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.180] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.181] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.181] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.18"4 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.217] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.218] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.218] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.23"1 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.258] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.259] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.266] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.27"0 pose="(x=30.2,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.304] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.304] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.305] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.31"2 pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.334] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.336] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.339] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.34"4 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.375] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.376] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.377] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.38"1 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.412] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.412] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.413] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.41"6 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.462] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.466] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.466] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.47"3 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.505] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.505] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.506] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.50"7 pose="(x=30.1,y=33.2,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.528] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.529] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.534] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.53"8 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.566] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.567] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.568] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.57"6 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.605] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.607] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.608] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.61"4 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.649] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.650] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.651] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.65"1 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.679] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.680] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.681] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.68"5 pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.713] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.713] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.714] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.71"7 pose="(x=30.0,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.748] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.749] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.749] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.75"0 pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.782] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.783] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.783] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.78"8 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.821] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.822] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.823] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.82"8 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.858] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.859] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.860] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.86"3 pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.891] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.892] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.893] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.89"4 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.924] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.925] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.926] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.93"7 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [11.971] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.975] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [11.976] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="11.97"9 pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.015] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.016] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.016] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.01"9 pose="(x=29.9,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.061] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.067] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.070] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.07"9 pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.117] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.117] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.118] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.15"7 pose="(x=30.0,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.184] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.184] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.185] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.18"9 pose="(x=30.1,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.209] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.209] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.210] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.21"4 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.240] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.242] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.242] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.24"3 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.280] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.280] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.282] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.28"6 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.315] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.316] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.316] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.32"1 pose="(x=30.3,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.352] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.353] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.354] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.35"5 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.391] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.392] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.392] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.39"6 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.429] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.430] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.431] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.44"3 pose="(x=30.2,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.469] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.471] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.471] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.47"5 pose="(x=30.3,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.515] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.515] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.516] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.52"0 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.549] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.549] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.550] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.55"1 pose="(x=30.1,y=33.1,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.582] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.582] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.583] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.58"9 pose="(x=30.1,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.621] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.622] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.623] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.62"7 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.658] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.659] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.660] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.66"4 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.701] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.702] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.703] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.71"2 pose="(x=30.3,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.736] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.742] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.743] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.74"4 pose="(x=30.3,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.776] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.777] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.778] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.78"3 pose="(x=30.0,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.820] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.821] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.821] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.82"6 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.858] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.859] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.860] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.86"6 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.893] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.893] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.894] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.89"5 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.920] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.921] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.921] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.92"5 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.958] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.958] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.959] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.96"3 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [12.994] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.995] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [12.996] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="12.99"7 pose="(x=30.1,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.046] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.048] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.049] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.05"3 pose="(x=30.1,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.083] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.083] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.083] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.76V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.08"7 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.117] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.117] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.118] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.12"2 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.155] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.156] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.157] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.15"8 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.191] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.191] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.192] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.19"7 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.238] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.238] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.239] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.70V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.24"3 pose="(x=30.2,y=33.0,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.280] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.281] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.281] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.28"5 pose="(x=30.3,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.323] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.324] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.325] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.33"6 pose="(x=30.3,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.362] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.362] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.363] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.36"8 pose="(x=30.1,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.399] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.402] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.404] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.40"7 pose="(x=30.4,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.445] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.445] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.446] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.45"0 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.472] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.473] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.477] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.48"3 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.512] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.513] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.514] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.51"8 pose="(x=30.3,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.550] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.551] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.552] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.55"3 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.585] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.585] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.586] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.59"0 pose="(x=30.3,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.628] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.629] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.630] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.63"4 pose="(x=30.3,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.659] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.660] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.661] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.66"5 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.696] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.697] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.697] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.69"9 pose="(x=30.0,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.729] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.729] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.730] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.74V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.73"4 pose="(x=30.0,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.758] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.759] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.759] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.76"3 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.796] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.797] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.797] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.79"8 pose="(x=30.3,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.830] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.830] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.831] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.84"1 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.881] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.882] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.882] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.88"6 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.918] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.919] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.919] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.92"3 pose="(x=30.3,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.954] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.954] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.956] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.95"7 pose="(x=30.3,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [13.990] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.992] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [13.992] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="13.99"7 pose="(x=30.3,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.027] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.028] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.028] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.03"9 pose="(x=30.2,y=32.9,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.086] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.088] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.088] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.09"3 pose="(x=30.3,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.124] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.125] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.127] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.13"1 pose="(x=30.4,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.165] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.165] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.166] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.17"2 pose="(x=30.2,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.196] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.196] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.197] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.19"8 pose="(x=30.3,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.232] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.235] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.236] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.24"8 pose="(x=30.4,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.281] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.282] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.284] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.29"2 pose="(x=30.3,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.320] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.321] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.323] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.32"7 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.358] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.358] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.359] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.36"4 pose="(x=30.2,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.400] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.400] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.401] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.40"1 pose="(x=30.3,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.442] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.442] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.445] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.45"1 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.480] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.481] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.482] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.48"6 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.510] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.511] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.512] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.51"7 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.542] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.543] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.543] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.54"4 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.566] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.566] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.567] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.57"3 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.613] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.613] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.614] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.61"8 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.646] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.647] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.648] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.65"0 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.679] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.679] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.680] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.69"4 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.719] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.720] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.720] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.72"5 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.754] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.755] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.756] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.75"8 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.786] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.787] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.787] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.79"3 pose="(x=30.2,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.823] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.824] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.825] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.83"0 pose="(x=30.5,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.852] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.853] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.853] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.85"4 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.883] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.884] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.884] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.88"8 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.920] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.920] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.923] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.92"7 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.959] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.960] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [14.960] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="14.96"4 pose="(x=30.4,y=32.8,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [14.999] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.000] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.000] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.00"1 pose="(x=30.2,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.035] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.043] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.044] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.05"0 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.068] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.069] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.073] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.68V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.07"8 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.107] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.108] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.108] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.11"3 pose="(x=30.2,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.171] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.173] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.174] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.17"9 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.201] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.202] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.203] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.71V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.20"5 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.236] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.237] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.238] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.24"3 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.282] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.283] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.284] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.28"8 pose="(x=30.2,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.316] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.317] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.317] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.32"2 pose="(x=30.3,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.351] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.352] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.352] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.35"3 pose="(x=30.3,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.385] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.386] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.387] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.70V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.39"3 pose="(x=30.2,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.426] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.427] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.427] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.70V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.43"1 pose="(x=30.4,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.462] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.463] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.463] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.66V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.46"9 pose="(x=30.3,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.509] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.510] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.511] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.51"7 pose="(x=30.3,y=32.7,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.549] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.549] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.551] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.55"2 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.586] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.587] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.587] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.59"4 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.622] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.623] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.624] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.64V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.62"9 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.668] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.680] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.681] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.65V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.68"5 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.704] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.706] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.707] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.70"8 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.736] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.736] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.737] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.72V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.74"4 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.769] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.769] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.770] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.67V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.77"9 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.804] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.805] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.805] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.73V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.80"9 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.837] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.838] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.841] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.69V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.84"7 pose="(x=30.4,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.868] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.869] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.869] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.87"4 pose="(x=30.3,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.903] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.903] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.904] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.Battery_Info: Voltage=12.75V (11.60V)
+GlobalTracer.Robot6541.auto_Info: <Event name="RobotPose" time="15.90"8 pose="(x=30.2,y=32.6,angle=-0.0)" />
+GlobalTracer.printPidInfo_Info: [15.939] encoderXPidCtrl: Target=   0.0, Input=   0.4, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.941] encoderYPidCtrl: Target=   0.0, Input=  -4.3, Error=   0.0, Output= 0.000(-0.500/0.500)
+GlobalTracer.printPidInfo_Info: [15.942] gyroPidCtrl: Target=  90.0, Input=  -0.0, Error=  90.0, Output= 0.500(-0.500/0.500)
+GlobalTracer.printElapsedTime_Info: imu.getGyroData: avgElapsed=0.000023, minElapsed=0.001264, maxElapsed=0.001264
+GlobalTracer.printElapsedTime_Info: TrcDigitalInput.getInput: avgElapsed=0.010403, minElapsed=0.025143, maxElapsed=0.025143
+GlobalTracer.printElapsedTime_Info: TrcMotor.getPos: avgElapsed=0.002289, minElapsed=0.056847, maxElapsed=0.056847
+GlobalTracer.printElapsedTime_Info: TrcServo.setPos: avgElapsed=0.016497, minElapsed=0.016163, maxElapsed=0.016163
+GlobalTracer.FtcOpMode_Info:      FtcAuto6541: Periodic=0.000026, Continuous=0.018630, SDK=0.000201
+GlobalTracer.TaskPerformance_Info: TrcRobotBattery.robotBatteryTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.008087, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: imu.converterTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000177, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info:     imu.gyroTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.029149, Output=0.000000
+GlobalTracer.TaskPerformance_Info:    imu.accelTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: TrcMotor.odometryTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.012218, Output=0.000000
+GlobalTracer.TaskPerformance_Info: lfWheel.cleanupTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: lfWheel.velCtrlTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: rfWheel.velCtrlTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: lbWheel.velCtrlTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: rbWheel.velCtrlTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: TrcDriveBase.odometryTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.003487, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: TrcDriveBase.stopTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: pidDrive.driveTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.006620
+GlobalTracer.TaskPerformance_Info: pidDrive.stopTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: elevatorMotor.velCtrlTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: pidelevator.pidMotorTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.016661
+GlobalTracer.TaskPerformance_Info: pidelevator.stopMotorTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: elevatorMotor.triggerTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.010408, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: elbowServo.servoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.elbowServo.enhancedServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.elbowServo.stopServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: grabberServo.servoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.grabberServo.enhancedServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.grabberServo.stopServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: backFoundationLatchServo.servoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.backFoundationLatchServo.enhancedServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.backFoundationLatchServo.stopServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: leftFoundationLatchServo.servoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: rightFoundationLatchServo.servoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.leftFoundationLatchServo.enhancedServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.leftFoundationLatchServo.stopServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: capstoneDeployerServo.servoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.capstoneDeployerServo.enhancedServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
+GlobalTracer.TaskPerformance_Info: servoActuator.capstoneDeployerServo.stopServoTask: Start=0.000000, Stop=0.000000, PrePeriodic=0.000000, PostPeriodic=0.000000, PreContinuous=0.000000, PostContinous=0.000000, Standalone=0.000000, Input=0.000000, Output=0.000000
