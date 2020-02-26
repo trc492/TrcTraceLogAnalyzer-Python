@@ -6,6 +6,7 @@ import time
 import os
 import tkinter as tk
 from tkinter import messagebox
+import util
 from util import ParseError, RobotPose, Log, inside, str_get_vars, parse_file
 
 try:
@@ -17,7 +18,7 @@ except FileNotFoundError:
     messagebox.showerror("Error", "Could not find the specified log file.")
 
 try:
-    win = gui.AnalysisWindow((500, 500), (24*6, 24*6), (18, 18))
+    win = gui.AnalysisWindow(util.SCREEN_DIMENSIONS, util.FIELD_DIMENSIONS)
     if fp:
         win.reload(fp)
     win.main_loop()

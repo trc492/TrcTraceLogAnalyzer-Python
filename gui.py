@@ -5,38 +5,33 @@ from tkinter import filedialog, messagebox
 import os
 import platform
 import numpy as np
-from util import Stopwatch, ParseError, apply_alliance, rotate_vector, parse_file
+import util
+from util import Stopwatch, ParseError, rotate_vector, parse_file, align_with_origin, flip_y, v3_align_with_origin
 
 class InfoWindow:
-    def __init__(self, analysis_window):
-        self.analysis_window = analysis_window
+    def __init__(self, parent_window, title, start_open=False):
+        self.parent = parent_window
         self.root = tk.Tk()
-        self.root.title("Extra info")
+        self.root.title(title)
         self.root.resizable(False, False)
-        self.format_str = "x: target: %.1f, input: %.1f, error: %.1f\ny: target: %.1f, input: %.1f, error: %.1f\nheading: target: %.1f, input: %.1f, error: %.1f"
         self.label = tk.Label(self.root, text=self.get_info_text())
         self.label.pack(side=tk.TOP)
-        self.open = False
+        self.open = start_open
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)
-        self.root.withdraw()
+        if not start_open:
+            self.root.withdraw()
 
     def update(self):
-        self.label.configure(text=self.get_info_text())
         self.root.update()
+        self.label.configure(text=self.get_info_text())
 
     def get_info_text(self):
-        if self.analysis_window.log_info:
-            x_t, y_t, h_t = self.analysis_window.log_info[self.analysis_window.step].rel_target.v3
-            x_i, y_i, h_i = self.analysis_window.log_info[self.analysis_window.step].rel_input.v3
-            x_e, y_e, h_e = self.analysis_window.log_info[self.analysis_window.step].rel_error.v3
-        else:
-            x_t, y_t, h_t, x_i, y_i, h_i, x_e, y_e, h_e = [0 for i in range(9)]
-        return self.format_str % (x_t, x_i, x_e, y_t, y_i, y_e, h_t, h_i, h_e)
-    
+        return ""
+
     def on_close(self):
         self.open = False
         self.root.withdraw()
-
+    
     def reopen(self):
         if not self.open:
             self.open = True
@@ -44,14 +39,58 @@ class InfoWindow:
         else:
             self.root.focus_force()
 
+class MatchInfoWindow(InfoWindow):
+    def __init__(self, analysis_window):
+        self.format_str = "Date: %s\nType: %s\nNumber: %s"
+        super().__init__(analysis_window, "Match Info")
+    
+    def get_info_text(self):
+        if self.parent.match_info:
+            date = self.parent.match_info["@date"]
+            match_type = self.parent.match_info["@type"]
+            match_number = self.parent.match_info["@number"]
+        else:
+            date, match_type, match_number = "", "", ""
+        return self.format_str % (date, match_type, match_number)
+
+class RobotInfoWindow(InfoWindow):
+    def __init__(self, analysis_window):
+        self.format_str = "Last time: %.3f\nState: %s\nAbs. target: x=%.1f, y=%.1f, heading=%.1f\nCurrent pos: x=%.1f, y=%.1f, heading=%.1f"
+        super().__init__(analysis_window, "Robot Info")
+
+    def get_info_text(self):
+        if self.parent.log_info:
+            time = self.parent.log_info[self.parent.step].time
+            state = self.parent.log_info[self.parent.step].state_name
+            x_c, y_c, h_c = self.parent.log_info[self.parent.step].actual_pos.v3
+            x_t, y_t, h_t = self.parent.log_info[self.parent.step].abs_target.v3
+        else:
+            time = 0.0
+            state = "None"
+            x_c, y_c, h_c = 0.0, 0.0, 0.0
+            x_t, y_t, h_t = 0.0, 0.0, 0.0
+        return self.format_str % (time, state, x_c, y_c, h_c, x_t, y_t, h_t)
+
+class AutoChoicesWindow(InfoWindow):
+    def __init__(self, analysis_window):
+        super().__init__(analysis_window, "Auto Choices")
+    
+    def get_info_text(self):
+        if self.parent.auto_choices:
+            return "\n".join(["%s: %s" % (key[1:], val) for key, val in self.parent.auto_choices.items()])
+        else:
+            return ""
+
 class AnalysisWindow:
-    def __init__(self, screen_dimensions, field_dimensions, robot_dimensions, log_name=None, log_info=None, alliance=None):
+    def __init__(self, screen_dimensions, field_dimensions):
         self.screen_dimensions = screen_dimensions
         self.field_dimensions = field_dimensions
-        self.robot_dimensions = robot_dimensions
-        self.log_name = log_name
-        self.log_info = log_info
-        self.alliance = alliance
+        self.log_name = None
+        self.log_info = None
+        self.alliance = None
+        self.match_info = None
+        self.auto_choices = None
+        self.extra = False
 
         self.kill = False
         
@@ -63,16 +102,22 @@ class AnalysisWindow:
 
         self.step = 0
 
-        self.stopwatch = Stopwatch(max_time=None, start_paused=True)
+        self.stopwatch = Stopwatch(max_time=30.0, start_paused=True)
         self.root = tk.Tk()
         self.root.title("Tracelog analysis")
         self.root.resizable(False, False)
 
-        self.info_window = InfoWindow(self)
+        self.match_info_window = MatchInfoWindow(self)
+        self.robot_info_window = RobotInfoWindow(self)
+        self.auto_choices_window = AutoChoicesWindow(self)
 
         menu_bar = tk.Menu(self.root)
         menu_bar.add_command(label="Open", command=self.prompt_file)
         menu_bar.add_command(label="Close", command=self.murder)
+        info_menu = tk.Menu(menu_bar, tearoff=0)
+        info_menu.add_command(label="Match Info", command=self.match_info_window.reopen)
+        info_menu.add_command(label="Robot Info", command=self.robot_info_window.reopen)
+        info_menu.add_command(label="Auto Choices", command=self.auto_choices_window.reopen)
 
         embed = tk.Frame(self.root, width=500, height=500)
         embed.pack(side=tk.TOP)
@@ -98,7 +143,7 @@ class AnalysisWindow:
 
         self.robot_surface = pygame.image.load("assets\\robot.png").convert_alpha()
 
-        self.background = pygame.image.load("assets\\field.png")
+        self.background = pygame.image.load(util.FIELD_IMAGE)
 
         self.add_image_button("assets\\jb_button.png", self.stopwatch.reset)
         self.add_image_button("assets\\b_button.png", self.prev_step)
@@ -107,14 +152,18 @@ class AnalysisWindow:
         self.add_image_button("assets\\play_button.png", self.stopwatch.start)
         self.add_image_button("assets\\pause_button.png", self.stopwatch.pause)
         self.add_image_button("assets\\stop_button.png", self.stopwatch.stop)
-        self.add_image_button("assets\\info_button.png", self.info_window.reopen)
+        self.add_image_button("assets\\info_button.png", self.toggle_extra)
 
         self.time_slider = tk.Scale(sliderwin, command=self.slider_update, orient=tk.HORIZONTAL, length=500,
-                                    resolution=0.001, from_=0.0, to=(log_info[-1].time if log_info else 0.0), showvalue=False)
+                                    resolution=0.001, from_=0.0, to=30.0, showvalue=False)
         self.time_slider.pack(side=tk.BOTTOM)
 
         self.root.configure(menu=menu_bar)
+        menu_bar.add_cascade(label="Info", menu=info_menu)
         self.root.update()
+
+    def toggle_extra(self):
+        self.extra = not self.extra
     
     def murder(self):
         self.kill = True
@@ -133,15 +182,17 @@ class AnalysisWindow:
 
     def reload(self, log_file):
         try:
-            self.log_name, self.log_info, self.alliance = parse_file(log_file)
+            self.match_info, self.auto_choices, self.log_info = parse_file(log_file)
         except ParseError as e:
             messagebox.showerror("Error", "Something went wrong parsing the file: %s. Make sure the file is a valid autonomous log." % e.message)
             return
+        self.alliance = self.auto_choices["@alliance"]
+        self.log_name = "%s %s" % (self.match_info["@type"], self.match_info["@number"])
         self.stopwatch.max_time = self.log_info[-1].time
         self.stopwatch.stop()
         self.step = 0
         self.root.title("Tracelog analysis: " + self.log_name)
-        self.info_window.root.title(self.log_name)
+        self.robot_info_window.root.title(self.log_name)
         self.time_slider.configure(to=self.log_info[-1].time)
 
     def slider_update(self, num):
@@ -165,26 +216,29 @@ class AnalysisWindow:
         self.time_slider.set(self.stopwatch.get_time())
 
     def update_step(self):
-        for i in range(len(self.log_info)):
-            if self.log_info[i].time > self.stopwatch.get_time():
-                self.step = i - 1 if i != 0 else i
-                return
-        self.step = len(self.log_info) - 1
+        if self.log_info:
+            for i in range(len(self.log_info)):
+                if self.log_info[i].time > self.stopwatch.get_time():
+                    self.step = i - 1 if i != 0 else i
+                    return
+            self.step = len(self.log_info) - 1
+        else:
+            self.step = 0
     
     def draw_robot(self):
-        x, y, angle = apply_alliance(self.alliance, self.field_dimensions, self.log_info[self.step].actual_pos.v3)
+        x, y, angle = v3_align_with_origin(self.log_info[self.step].actual_pos.v3, self.alliance)
         robot_rect = self.robot_surface.get_rect()
-        robot_rect.center = self.inches_to_pixels((x, y))
+        robot_rect.center = self.inches_to_pixels(flip_y((x, y)))
         self.screen.blit(pygame.transform.rotate(self.robot_surface, angle), robot_rect)
 
     def draw_robot_error(self):
-        robot_pos = self.inches_to_pixels(apply_alliance(self.alliance, self.field_dimensions, self.log_info[self.step].actual_pos.pos))
-        error_pose = self.log_info[self.step].get_abs_error(self.alliance, self.field_dimensions)
-        error_pos = self.inches_to_pixels(error_pose.pos)
-        heading_error_vector = self.inches_to_pixels(rotate_vector((0, 5), error_pose.heading, True))
-        abs_heading_error = (error_pos[0] + heading_error_vector[0], error_pos[1] + heading_error_vector[1])
-        pygame.draw.line(self.screen, (255,0,0), robot_pos, error_pos, 5)
-        pygame.draw.line(self.screen, (0, 255, 0), error_pos, abs_heading_error, 5)
+        robot_pos = self.inches_to_pixels(flip_y(align_with_origin(self.log_info[self.step].actual_pos.pos, self.alliance)))
+        target_x, target_y, target_h = v3_align_with_origin(self.log_info[self.step].abs_target.v3, self.alliance)
+        target_pos = self.inches_to_pixels(flip_y((target_x, target_y)))
+        heading_target_vector = self.inches_to_pixels(rotate_vector((0, 5), target_h + 180, True))
+        abs_heading_target = (target_pos[0] + heading_target_vector[0], target_pos[1] + heading_target_vector[1])
+        pygame.draw.line(self.screen, (255,0,0), robot_pos, target_pos, 5)
+        pygame.draw.line(self.screen, (0, 255, 0), target_pos, abs_heading_target, 5)
 
     def draw_timer(self):
         text_y = self.screen_dimensions[1] - 70 if self.alliance == "BLUE_ALLIANCE" else 40
@@ -221,11 +275,16 @@ class AnalysisWindow:
                 self.update_step()
                 self.update_time_slider()
                 self.draw_robot()
-                if self.info_window.open:
+                if self.extra:
                     self.draw_robot_error()
                 self.draw_robot_info()
-                if self.info_window.open:
-                    self.info_window.update()
+                if self.match_info_window.open:
+                    self.match_info_window.update()
+                if self.robot_info_window.open:
+                    self.robot_info_window.update()
+                if self.auto_choices_window.open:
+                    self.auto_choices_window.update()
+
             self.draw_timer()
             try:
                 self.root.update()

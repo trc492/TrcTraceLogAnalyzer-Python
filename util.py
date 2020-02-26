@@ -1,11 +1,37 @@
 import time
 import math
 import os
+import json
 import traceback
 import numpy as np
 from tkinter import messagebox
+import xmltodict
+from xml.parsers.expat import ExpatError
+
+FIELD_DIMENSIONS = (0, 0)
+SCREEN_DIMENSIONS = (0, 0)
+BLUE_ORIGIN = (0, 144)
+BLUE_X_DIRECTION = 0
+RED_ORIGIN = (0, 144)
+RED_X_DIRECTION = 0
+FIELD_IMAGE = 0
+
+with open("config.json") as f:
+    data = json.load(f)
+    data = data[data["game"]] # bruh
+    FIELD_DIMENSIONS = data["field_dimensions"]
+    SCREEN_DIMENSIONS = data["screen_dimensions"]
+    BLUE_ORIGIN = data["blue_origin"]
+    BLUE_X_DIRECTION = data["blue_x_direction"]
+    RED_ORIGIN = data["red_origin"]
+    RED_X_DIRECTION = data["red_x_direction"]
+    FIELD_IMAGE = data["field_image"]
 
 class ParseError(Exception):
+    def __init__(self, message):
+        self.message = message
+
+class ConfigError(Exception):
     def __init__(self, message):
         self.message = message
 
@@ -66,23 +92,21 @@ class RobotPose:
         self.v3 = (self.x, self.y, self.heading)
 
 class Log:
-    def __init__(self, time, actual_pos, rel_target, rel_input, rel_error, state_name):
+    def __init__(self, time, actual_pos, abs_target, state_name):
         self.time = time
         self.actual_pos = actual_pos
-        self.rel_target = rel_target
-        self.rel_input = rel_input
-        self.rel_error = rel_error
+        self.abs_target = abs_target
         self.state_name = state_name
 
-    def get_abs_error(self, alliance, field_dimensions):
-        # orients the error to extend the actual robot pos, the heading is based off of the robot heading target, not the actual heading
-        abs_x, abs_y, abs_heading = apply_alliance(alliance, field_dimensions, self.actual_pos.v3)
-        abs_heading_corrected = abs_heading - self.rel_error.heading
-        # negative y because pygame uses a right hand y axis, robot uses left
-        rotated = rotate_vector((self.rel_error.x, -self.rel_error.y), abs_heading_corrected, True) 
-        x = abs_x + rotated[0]
-        y = abs_y + rotated[1]
-        return RobotPose(x, y, (abs_heading - self.rel_error.heading + 180) % 360)
+    # def get_abs_error(self, alliance, field_dimensions):
+    #     # orients the error to extend the actual robot pos, the heading is based off of the robot heading target, not the actual heading
+    #     abs_x, abs_y, abs_heading = apply_alliance(alliance, field_dimensions, self.actual_pos.v3)
+    #     abs_heading_corrected = abs_heading - self.rel_error.heading
+    #     # negative y because pygame uses a right hand y axis, robot uses left
+    #     rotated = rotate_vector((self.rel_error.x, -self.rel_error.y), abs_heading_corrected, True) 
+    #     x = abs_x + rotated[0]
+    #     y = abs_y + rotated[1]
+    #     return RobotPose(x, y, (abs_heading - self.rel_error.heading + 180) % 360)
 
 def inside(string, opening, closing):
     inside = ""
@@ -138,21 +162,28 @@ def str_get_vars(string, *var_names):
         parsed_vars.append(var)
     return parsed_vars
 
-def apply_alliance(alliance, field_dimensions, v3_or_pos):
-    try:
-        x, y, angle = v3_or_pos
-    except ValueError:
-        x, y = v3_or_pos
-        angle = None
-    if angle != None:
-        angle *= -1
-    if alliance == "BLUE_ALLIANCE":
-        x = -x
-        if angle != None:
-            angle += 180
-    else:
-        y = field_dimensions[1] - y
-    return (x, y) if angle == None else (x, y, angle)
+def align_with_origin(point, alliance):
+    x_direction = BLUE_X_DIRECTION if alliance == "BLUE_ALLIANCE" else RED_X_DIRECTION
+    origin = BLUE_ORIGIN if alliance == "BLUE_ALLIANCE" else RED_ORIGIN
+    if x_direction == 0:
+        return (origin[0] + point[0], origin[1] + point[1])
+    elif x_direction == 1:
+        return (origin[0] - point[1], origin[1] + point[0])
+    elif x_direction == 2:
+        return (origin[0] - point[0], origin[1] - point[1])
+    elif x_direction == 3:
+        return (origin[0] + point[1], origin[1] - point[0])
+    raise ConfigError("invalid x direction")
+
+def apply_x_direction(angle, alliance, degrees=True):
+    x_direction = BLUE_X_DIRECTION if alliance == "BLUE_ALLIANCE" else RED_X_DIRECTION
+    return -(angle - x_direction * (90 if degrees else (math.pi / 2))) % (360 if degrees else (math.pi * 2))
+
+def v3_align_with_origin(v3, alliance):
+    return align_with_origin(v3[0:2], alliance) + (apply_x_direction(v3[2], alliance),)
+
+def flip_y(pos):
+    return (pos[0], FIELD_DIMENSIONS[1] - pos[1])
 
 def rotate_vector(v, angle, degrees=False):
     if degrees:
@@ -170,40 +201,47 @@ def parse_file(fp):
 
     pos_info = []
 
-    for i in range(len(lines)):
-        if "RobotPose" in lines[i]:
-            o = 0
-            while(1):
-                try:
-                    last_time = inside(lines[i-o], "[", "]")
-                    break
-                except ParseError:
-                    o += 1
-            o = 0
-            while(1):
-                try:
-                    state = str_get_vars(lines[i-o], ">>>>>")[0]
-                    break
-                except ParseError:
-                    o += 1
-            x_target, x_input, x_error = str_get_vars(lines[i+1], "Target", "Input", "Error")
-            y_target, y_input, y_error = str_get_vars(lines[i+2], "Target", "Input", "Error")
-            h_target, h_input, h_error = str_get_vars(lines[i+3], "Target", "Input", "Error")
-            target_pose = RobotPose(x_target, y_target, h_target)
-            input_pose = RobotPose(x_input, y_input, h_input)
-            error_pose = RobotPose(x_error, y_error, h_error)
-            # VS Code apparently hates asterisks
-            x, y, h = str_get_vars(lines[i], "x", "y", "angle")
-            absolute_pose = RobotPose(x, y, h)
-            pos_info.append(Log(float(last_time), absolute_pose, target_pose, input_pose, error_pose, state))
+    last_state = "NONE"
+    target_pose = None
+    
+    match_info = None
+    auto_choices = None
 
-    try:
-        alliance = lines[1].split(" ")[2][:-1]
-    except IndexError:
-        raise ParseError("alliance line not formatted correctly")
-    name = inside(lines[1], "[", "]")
+    for line in lines:
+        if "_Info" in line:
+            xml_str = line.split(": ")[1]
+            try:
+                xml_data = xmltodict.parse(xml_str)
+            except ExpatError:
+                continue
+            try:
+                if "Event" in xml_data.keys():
+                    xml_data = xml_data["Event"]
+                    if xml_data["@name"] == "StateInfo":
+                        last_state = xml_data["@state"]
+                        target_pose = RobotPose(xml_data["@xTarget"], xml_data["@yTarget"], xml_data["@headingTarget"])
+                        robot_pose = RobotPose(xml_data["@x"], xml_data["@y"], xml_data["@heading"])
+                        pos_info.append(Log(float(xml_data["@time"]), robot_pose, target_pose, last_state))
+                    elif xml_data["@name"] == "RobotPose":
+                        pose = xml_data["@pose"]
+                        x, y, angle = str_get_vars(pose, "x", "y", "angle")
+                        robot_pose = RobotPose(x, y, angle)
+                        pos_info.append(Log(float(xml_data["@time"]), robot_pose, target_pose, last_state))
+                elif "Info" in xml_data.keys():
+                    xml_data = xml_data["Info"]
+                    if xml_data["@name"] == "MatchInfo":
+                        match_info = xml_data
+                        
+                    elif xml_data["@name"] == "AutoChoices":
+                        auto_choices = xml_data
+            except KeyError:
+                # headers in xml data not valid
+                continue
 
     if len(pos_info) == 0:
         raise ParseError("no position info")
-
-    return (name, pos_info, alliance)
+    if match_info == None:
+        raise ParseError("no match info found")
+    if auto_choices == None:
+        raise ParseError("no auto choices found")
+    return (match_info, auto_choices, pos_info)

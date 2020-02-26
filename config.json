@@ -1,0 +1,21 @@
+{
+    "game": "ftc_2020_skystone",
+    "ftc_2020_skystone": {
+        "field_dimensions": [144, 144],
+        "screen_dimensions": [500, 500],
+        "blue_origin": [0, 144],
+        "blue_x_direction": 2,
+        "red_origin": [0, 0],
+        "red_x_direction": 0,
+        "field_image": "assets\\skystone_2020_field.png"
+    },
+    "frc_2020_infinite_recharge": {
+        "field_dimensions": [649, 319],
+        "screen_dimensions": [600, 295],
+        "blue_origin": [120, 0],
+        "blue_x_direction": 0,
+        "red_origin": [529, 319],
+        "red_x_direction": 2,
+        "field_image": "assets\\infinite_recharge_2020_field.png"
+    }
+}
