@@ -9,7 +9,7 @@
 
 ## Installation
 
-This script depends on `numpy` and `pygame` to run correctly. You can install both by running `python3 -m pip install -r requirements.txt` (`py -m pip install -r requirements.txt` if using Windows) in this directory.
+This script depends on `numpy`, `pygame`, and `xmltodict` to run. You can install both by running `python3 -m pip install -r requirements.txt` (`py -m pip install -r requirements.txt` if using Windows) in this directory.
 
 ## Versions
 
@@ -34,8 +34,21 @@ The button controls (left to right) are as follows:
 * Play - What you would expect
 * Pause - Also what you would expect
 * Stop - Pauses and jumps to the beginning of the log
-* Info - Opens (or focuses if already open) a window containing extra PID information and displays PID errors relative to the robot
+* Info - Toggles extra target info vectors (red line is from current pos to target pos, green line represents the target heading)
 
-The `Open` button at the top of the window can be used to open a new log file, and the `Close` button closes the window.
+The `Open` button at the top of the window can be used to open a new log file, and the `Close` button closes the window. The `Info` button displays a dropdown list of menus that can be opened to get more in depth info.
 
 The timeline at the bottom can be scrolled left and right and moves with the stopwatch timer.
+
+## Anatomy of a log
+
+Every line that contains data should be in standard XML format, or it will be ignored. The content of the lines should be as follows (all values within quotes, positions in `%.1f` format, and times in `%.3f`):
+
+* At least one Info tag with the name MatchInfo, containing the date, type, and number of a match.
+* At least one Info tag with the name AutoChoices, with any autonomous choices selected. This is automatically sorted through.
+* Any number of Event tags with the name StateInfo, each containing the time, the current state name, and the current x/y/heading as well as the targets, followed by...
+* Any number of Event tags with the name RobotPose, each containing the time and a pose in the format `"(x=%.1f,y=%.1f,angle=%.1f)"` (spaces can also be inserted for readability in logical locations).
+
+Note that the Info tags can be located anywhere in the file and they will still be interpreted correctly. However, with the Event tags, there must be at least one StateInfo already in the log before any RobotPoses are added or the parser won't work.
+
+There is an example log in the top directory for more reference.
