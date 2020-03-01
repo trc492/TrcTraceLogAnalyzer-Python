@@ -53,24 +53,6 @@ class MatchInfoWindow(InfoWindow):
             date, match_type, match_number = "", "", ""
         return self.format_str % (date, match_type, match_number)
 
-class RobotInfoWindow(InfoWindow):
-    def __init__(self, analysis_window):
-        self.format_str = "Last time: %.3f\nState: %s\nAbs. target: x=%.1f, y=%.1f, heading=%.1f\nCurrent pos: x=%.1f, y=%.1f, heading=%.1f"
-        super().__init__(analysis_window, "Robot Info")
-
-    def get_info_text(self):
-        if self.parent.log_info:
-            time = self.parent.log_info[self.parent.step].time
-            state = self.parent.log_info[self.parent.step].state_name
-            x_c, y_c, h_c = self.parent.log_info[self.parent.step].actual_pos.v3
-            x_t, y_t, h_t = self.parent.log_info[self.parent.step].abs_target.v3
-        else:
-            time = 0.0
-            state = "None"
-            x_c, y_c, h_c = 0.0, 0.0, 0.0
-            x_t, y_t, h_t = 0.0, 0.0, 0.0
-        return self.format_str % (time, state, x_c, y_c, h_c, x_t, y_t, h_t)
-
 class AutoChoicesWindow(InfoWindow):
     def __init__(self, analysis_window):
         super().__init__(analysis_window, "Auto Choices")
@@ -80,6 +62,49 @@ class AutoChoicesWindow(InfoWindow):
             return "\n".join(["%s: %s" % (key[1:], val) for key, val in self.parent.auto_choices.items()])
         else:
             return ""
+
+class RawLogWindow(InfoWindow):
+    def __init__(self, parent_window, lines, colors, on_change):
+        self.parent = parent_window
+        self.root = tk.Tk()
+        self.root.title("Raw Log Overview")
+        button = tk.Button(self.root, text="Jump to current", command=self.jump_to_current)
+        button.pack(side=tk.TOP, fill=tk.X)
+        self.code_box = tk.Listbox(self.root)
+        self.add_lines(lines, colors)
+        self.code_box.pack(fill=tk.BOTH, expand=True)
+        self.last_selection = -1
+        self.on_change = on_change
+        self.open = False
+        self.root.protocol("WM_DELETE_WINDOW", self.on_close)
+        self.root.withdraw()
+    
+    def update(self):
+        self.root.update()
+        c_s = self.code_box.curselection()
+        if len(c_s) != 0 and c_s[0] != self.last_selection:
+            self.on_change(c_s[0])
+            self.last_selection = c_s[0]
+            return True
+        return False
+
+    def add_lines(self, lines, colors):
+        for i, l in enumerate(lines):
+            self.code_box.insert(i, l)
+            self.code_box.itemconfig(i, {"fg": colors[i]})
+
+    def select(self, n):
+        self.code_box.selection_clear(0, self.code_box.size())
+        self.code_box.selection_set(n)
+        self.code_box.see(n)
+
+    def reset(self, lines, colors):
+        self.code_box.delete(0, self.code_box.size())
+        self.add_lines(lines, colors)
+
+    def jump_to_current(self):
+        self.select(self.parent.log_info[self.parent.step].log_index)
+          
 
 class AnalysisWindow:
     def __init__(self, screen_dimensions, field_dimensions):
@@ -91,6 +116,8 @@ class AnalysisWindow:
         self.match_info = None
         self.auto_choices = None
         self.extra = False
+        self.lines = []
+        self.line_colors = []
 
         self.kill = False
         
@@ -108,18 +135,18 @@ class AnalysisWindow:
         self.root.resizable(False, False)
 
         self.match_info_window = MatchInfoWindow(self)
-        self.robot_info_window = RobotInfoWindow(self)
         self.auto_choices_window = AutoChoicesWindow(self)
+        self.log_window = RawLogWindow(self, self.lines, self.line_colors, self.set_step_from_line)
 
         menu_bar = tk.Menu(self.root)
         menu_bar.add_command(label="Open", command=self.prompt_file)
         menu_bar.add_command(label="Close", command=self.murder)
         info_menu = tk.Menu(menu_bar, tearoff=0)
         info_menu.add_command(label="Match Info", command=self.match_info_window.reopen)
-        info_menu.add_command(label="Robot Info", command=self.robot_info_window.reopen)
         info_menu.add_command(label="Auto Choices", command=self.auto_choices_window.reopen)
+        info_menu.add_command(label="Raw Log XML", command=self.log_window.reopen)
 
-        embed = tk.Frame(self.root, width=500, height=500)
+        embed = tk.Frame(self.root, width=self.screen_dimensions[0], height=self.screen_dimensions[1])
         embed.pack(side=tk.TOP)
 
         self.buttonwin = tk.Frame(self.root, width=100, height=500)
@@ -141,7 +168,7 @@ class AnalysisWindow:
         pygame.display.init()
         pygame.display.update()
 
-        self.robot_surface = pygame.image.load("assets\\robot.png").convert_alpha()
+        self.robot_surface = pygame.image.load(util.ROBOT_IMAGE).convert_alpha()
 
         self.background = pygame.image.load(util.FIELD_IMAGE)
 
@@ -182,7 +209,7 @@ class AnalysisWindow:
 
     def reload(self, log_file):
         try:
-            self.match_info, self.auto_choices, self.log_info = parse_file(log_file)
+            self.match_info, self.auto_choices, self.log_info, self.lines, self.line_colors = parse_file(log_file)
         except ParseError as e:
             messagebox.showerror("Error", "Something went wrong parsing the file: %s. Make sure the file is a valid autonomous log." % e.message)
             return
@@ -192,8 +219,8 @@ class AnalysisWindow:
         self.stopwatch.stop()
         self.step = 0
         self.root.title("Tracelog analysis: " + self.log_name)
-        self.robot_info_window.root.title(self.log_name)
         self.time_slider.configure(to=self.log_info[-1].time)
+        self.log_window.reset(self.lines, self.line_colors)
 
     def slider_update(self, num):
         if self.set_update:
@@ -202,10 +229,10 @@ class AnalysisWindow:
             self.stopwatch.set_time(float(num))
             self.update_step()
 
-    def render_text(self, text, x, y, font, spacing=5, color=(255, 255, 255)):
+    def render_text(self, text, x, y, font, spacing=5):
         lines = text.splitlines()
         for i, l in enumerate(lines):
-            self.screen.blit(font.render(l, False, color), (x, y + (font.size("|")[1] + spacing)*i))
+            self.screen.blit(font.render(l, False, tuple(util.TEXT_COLOR)), (x, y + (font.size("|")[1] + spacing)*i))
 
     def inches_to_pixels(self, coords):
         return (int(coords[0] * (self.screen_dimensions[0] / self.field_dimensions[0])), \
@@ -247,10 +274,11 @@ class AnalysisWindow:
     def draw_robot_info(self):
         last_time = self.log_info[self.step].time
         x, y, angle = self.log_info[self.step].actual_pos.v3
+        x_t, y_t, angle_t = self.log_info[self.step].abs_target.v3
         state = self.log_info[self.step].state_name
         text_x = self.screen_dimensions[0] - max(self.info_font.size("state: " + state)[0], 215)
         text_y = self.screen_dimensions[1] - 100 if self.alliance == "BLUE_ALLIANCE" else 10
-        self.render_text("x: %.1f\ny: %.1f\nangle: %.1f\nlast time: %.3f\nstate: %s" % (x, y, angle, last_time, state), \
+        self.render_text("x: %12.1f/%.1f\ny: %12.1f/%.1f\nheading: %6.1f/%.1f\nlast time: %.3f\nstate: %s" % (x, x_t, y, y_t, angle, angle_t, last_time, state), \
             text_x, text_y, self.info_font, spacing=3)
 
     def next_step(self):
@@ -266,6 +294,27 @@ class AnalysisWindow:
             self.step -= 1
             self.stopwatch.set_time(self.log_info[self.step].time)
 
+    def set_step(self, n):
+        self.step = n
+        self.stopwatch.set_time(self.log_info[self.step].time)
+        self.update_time_slider()
+
+    def set_step_from_line(self, l):
+        s = 0
+        found = False
+        while True:
+            if l == 0:
+                break
+            for i, log in enumerate(self.log_info):
+                if log.log_index == l:
+                    s = i
+                    found = True
+                    break
+            if found:
+                break
+            l -= 1
+        self.set_step(s)
+
     def main_loop(self):
         while(1):
             if self.kill:
@@ -280,10 +329,10 @@ class AnalysisWindow:
                 self.draw_robot_info()
                 if self.match_info_window.open:
                     self.match_info_window.update()
-                if self.robot_info_window.open:
-                    self.robot_info_window.update()
                 if self.auto_choices_window.open:
                     self.auto_choices_window.update()
+                if self.log_window.open:
+                    self.log_window.update()
 
             self.draw_timer()
             try:

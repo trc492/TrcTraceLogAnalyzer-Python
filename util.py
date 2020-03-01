@@ -14,7 +14,9 @@ BLUE_ORIGIN = (0, 144)
 BLUE_X_DIRECTION = 0
 RED_ORIGIN = (0, 144)
 RED_X_DIRECTION = 0
-FIELD_IMAGE = 0
+FIELD_IMAGE = ""
+ROBOT_IMAGE = ""
+TEXT_COLOR = ""
 
 with open("config.json") as f:
     data = json.load(f)
@@ -26,6 +28,8 @@ with open("config.json") as f:
     RED_ORIGIN = data["red_origin"]
     RED_X_DIRECTION = data["red_x_direction"]
     FIELD_IMAGE = data["field_image"]
+    ROBOT_IMAGE = data["robot_image"]
+    TEXT_COLOR = data["text_color"]
 
 class ParseError(Exception):
     def __init__(self, message):
@@ -92,21 +96,12 @@ class RobotPose:
         self.v3 = (self.x, self.y, self.heading)
 
 class Log:
-    def __init__(self, time, actual_pos, abs_target, state_name):
+    def __init__(self, time, actual_pos, abs_target, state_name, log_index):
         self.time = time
         self.actual_pos = actual_pos
         self.abs_target = abs_target
         self.state_name = state_name
-
-    # def get_abs_error(self, alliance, field_dimensions):
-    #     # orients the error to extend the actual robot pos, the heading is based off of the robot heading target, not the actual heading
-    #     abs_x, abs_y, abs_heading = apply_alliance(alliance, field_dimensions, self.actual_pos.v3)
-    #     abs_heading_corrected = abs_heading - self.rel_error.heading
-    #     # negative y because pygame uses a right hand y axis, robot uses left
-    #     rotated = rotate_vector((self.rel_error.x, -self.rel_error.y), abs_heading_corrected, True) 
-    #     x = abs_x + rotated[0]
-    #     y = abs_y + rotated[1]
-    #     return RobotPose(x, y, (abs_heading - self.rel_error.heading + 180) % 360)
+        self.log_index = log_index
 
 def inside(string, opening, closing):
     inside = ""
@@ -207,12 +202,15 @@ def parse_file(fp):
     match_info = None
     auto_choices = None
 
-    for line in lines:
+    colors = []
+
+    for i, line in enumerate(lines):
         if "_Info" in line:
             xml_str = line.split(": ")[1]
             try:
                 xml_data = xmltodict.parse(xml_str)
             except ExpatError:
+                colors.append("black")
                 continue
             try:
                 if "Event" in xml_data.keys():
@@ -220,23 +218,25 @@ def parse_file(fp):
                     if xml_data["@name"] == "StateInfo":
                         last_state = xml_data["@state"]
                         target_pose = RobotPose(xml_data["@xTarget"], xml_data["@yTarget"], xml_data["@headingTarget"])
-                        robot_pose = RobotPose(xml_data["@x"], xml_data["@y"], xml_data["@heading"])
-                        pos_info.append(Log(float(xml_data["@time"]), robot_pose, target_pose, last_state))
-                    elif xml_data["@name"] == "RobotPose":
+                        robot_pose = RobotPose(xml_data["@xPos"], xml_data["@yPos"], xml_data["@heading"])
+                        pos_info.append(Log(float(xml_data["@time"]), robot_pose, target_pose, last_state, i))
+                    elif xml_data["@name"] == "RobotPose": 
                         pose = xml_data["@pose"]
                         x, y, angle = str_get_vars(pose, "x", "y", "angle")
                         robot_pose = RobotPose(x, y, angle)
-                        pos_info.append(Log(float(xml_data["@time"]), robot_pose, target_pose, last_state))
+                        pos_info.append(Log(float(xml_data["@time"]), robot_pose, target_pose, last_state, i))
                 elif "Info" in xml_data.keys():
                     xml_data = xml_data["Info"]
                     if xml_data["@name"] == "MatchInfo":
                         match_info = xml_data
-                        
                     elif xml_data["@name"] == "AutoChoices":
                         auto_choices = xml_data
+                colors.append("red")
+                continue
             except KeyError:
                 # headers in xml data not valid
-                continue
+                pass
+        colors.append("black")
 
     if len(pos_info) == 0:
         raise ParseError("no position info")
@@ -244,4 +244,4 @@ def parse_file(fp):
         raise ParseError("no match info found")
     if auto_choices == None:
         raise ParseError("no auto choices found")
-    return (match_info, auto_choices, pos_info)
+    return (match_info, auto_choices, pos_info, lines, colors)

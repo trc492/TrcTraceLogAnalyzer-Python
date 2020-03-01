@@ -27,18 +27,32 @@ You can also run the file with the log file path supplied as an argument (e.g. `
 
 The button controls (left to right) are as follows:
 
-* Jump back - Jumps to the beginning of the log
-* Step back - Moves one position entry back in the log
-* Step forward - Moves one position entry forward in the log
-* Jump forward - Jumps to the end of the log
-* Play - What you would expect
-* Pause - Also what you would expect
-* Stop - Pauses and jumps to the beginning of the log
-* Info - Toggles extra target info vectors (red line is from current pos to target pos, green line represents the target heading)
+* Jump back - Jumps to the beginning of the log.
+* Step back - Moves one position entry back in the log.
+* Step forward - Moves one position entry forward in the log.
+* Jump forward - Jumps to the end of the log.
+* Play - What you would expect.
+* Pause - Also what you would expect.
+* Stop - Pauses and jumps to the beginning of the log.
+* Info - Toggles extra target info vectors (red line is from current pos to target pos, green line represents the target heading).
 
-The `Open` button at the top of the window can be used to open a new log file, and the `Close` button closes the window. The `Info` button displays a dropdown list of menus that can be opened to get more in depth info.
+The `Open` button at the top of the window can be used to open a new log file, and the `Close` button closes the window. The `Info` button displays a dropdown list of menus that can be opened to get more in depth info, including a raw log menu that allows you to click on different lines of the log and be taken to that place in the timeline.
 
 The timeline at the bottom can be scrolled left and right and moves with the stopwatch timer.
+
+## The config.json file
+
+`config.json` holds information on how the data should be displayed. The `game` key is associated with the name of the game that you want to use. This name should match up with one of the other entries in the top level of the json file, which essentially act as presets for the different games, holding unique info for each. The options are as follows:
+
+* `field_dimensions` - A list containing the x/y dimensions of the field, in inches.
+* `screen_dimensions` - A list containing the x/y dimensions of the pygame window, in pixels.
+* `blue_origin` - A list containing the field coordinates of the origin for the blue alliance, in inches and based on the bottom left corner as (0, 0).
+* `blue_x_direction` - An integer specifying the way in which the x-axis points on the blue alliance.
+* `red_origin` - A list containing the field coordinates of the origin for the blue alliance, in inches and based on the bottom left corner as (0, 0).
+* `red_x_direction` - An integer specifying the way in which the x-axis points on the blue alliance.
+* `field_image` - A string containing the relative or absolute path pointing towards the field background image to use.
+
+The x-direction values should be from 0 to 3 (inclusive), with 0 representing directly pointed to the right and perfectly horizontal, 1 being straight up, 2 being to the left, and 3 being straight down. This assumes that the y-axis is perpendicular 90 degrees counterclockwise from the x-axis.
 
 ## Anatomy of a log
 

@@ -1,5 +1,5 @@
 {
-    "game": "ftc_2020_skystone",
+    "game": "frc_2020_infinite_recharge",
     "ftc_2020_skystone": {
         "field_dimensions": [144, 144],
         "screen_dimensions": [500, 500],
@@ -7,15 +7,19 @@
         "blue_x_direction": 2,
         "red_origin": [0, 0],
         "red_x_direction": 0,
-        "field_image": "assets\\skystone_2020_field.png"
+        "field_image": "assets\\skystone_2020_field.png",
+        "robot_image": "assets\\ftc_robot.png",
+        "text_color": [255, 255, 255]
     },
     "frc_2020_infinite_recharge": {
-        "field_dimensions": [649, 319],
-        "screen_dimensions": [600, 295],
+        "field_dimensions": [629.25, 323.25],
+        "screen_dimensions": [629, 323],
         "blue_origin": [120, 0],
-        "blue_x_direction": 0,
-        "red_origin": [529, 319],
-        "red_x_direction": 2,
-        "field_image": "assets\\infinite_recharge_2020_field.png"
+        "blue_x_direction": 1,
+        "red_origin": [509.25, 323.25],
+        "red_x_direction": 3,
+        "field_image": "assets\\infinite_recharge_2020_field.png",
+        "robot_image": "assets\\frc_robot.png",
+        "text_color": [0, 0, 0]
     }
 }
