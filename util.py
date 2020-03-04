@@ -158,8 +158,8 @@ def str_get_vars(string, *var_names):
     return parsed_vars
 
 def align_with_origin(point, alliance):
-    x_direction = BLUE_X_DIRECTION if alliance == "BLUE_ALLIANCE" else RED_X_DIRECTION
-    origin = BLUE_ORIGIN if alliance == "BLUE_ALLIANCE" else RED_ORIGIN
+    x_direction = BLUE_X_DIRECTION if "blue" in alliance.lower() else RED_X_DIRECTION
+    origin = BLUE_ORIGIN if "blue" in alliance.lower() else RED_ORIGIN
     if x_direction == 0:
         return (origin[0] + point[0], origin[1] + point[1])
     elif x_direction == 1:
@@ -171,7 +171,7 @@ def align_with_origin(point, alliance):
     raise ConfigError("invalid x direction")
 
 def apply_x_direction(angle, alliance, degrees=True):
-    x_direction = BLUE_X_DIRECTION if alliance == "BLUE_ALLIANCE" else RED_X_DIRECTION
+    x_direction = BLUE_X_DIRECTION if "blue" in alliance.lower() else RED_X_DIRECTION
     return -(angle - x_direction * (90 if degrees else (math.pi / 2))) % (360 if degrees else (math.pi * 2))
 
 def v3_align_with_origin(v3, alliance):

@@ -1,10 +1,12 @@
 import pygame
+import json
 import time
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import os
 import platform
 import numpy as np
+from zebra_motionworks import ZebraMotionWorks, ZMWError
 import util
 from util import Stopwatch, ParseError, rotate_vector, parse_file, align_with_origin, flip_y, v3_align_with_origin
 
@@ -118,6 +120,7 @@ class AnalysisWindow:
         self.extra = False
         self.lines = []
         self.line_colors = []
+        self.zmw = None
 
         self.kill = False
         
@@ -138,13 +141,16 @@ class AnalysisWindow:
         self.auto_choices_window = AutoChoicesWindow(self)
         self.log_window = RawLogWindow(self, self.lines, self.line_colors, self.set_step_from_line)
 
+        self.root.protocol("WM_DELETE_WINDOW", self.prompt_close)
+
         menu_bar = tk.Menu(self.root)
         menu_bar.add_command(label="Open", command=self.prompt_file)
-        menu_bar.add_command(label="Close", command=self.murder)
+        menu_bar.add_command(label="Close", command=self.prompt_close)
         info_menu = tk.Menu(menu_bar, tearoff=0)
         info_menu.add_command(label="Match Info", command=self.match_info_window.reopen)
         info_menu.add_command(label="Auto Choices", command=self.auto_choices_window.reopen)
         info_menu.add_command(label="Raw Log XML", command=self.log_window.reopen)
+        info_menu.add_command(label="Zebra MotionWorks", command=self.get_zebra_motionworks)
 
         embed = tk.Frame(self.root, width=self.screen_dimensions[0], height=self.screen_dimensions[1])
         embed.pack(side=tk.TOP)
@@ -189,11 +195,12 @@ class AnalysisWindow:
         menu_bar.add_cascade(label="Info", menu=info_menu)
         self.root.update()
 
+    def prompt_close(self):
+        if messagebox.askokcancel(title="Close window", message="Are you sure you want to close the log analyzer?"):
+            self.kill = True
+
     def toggle_extra(self):
         self.extra = not self.extra
-    
-    def murder(self):
-        self.kill = True
 
     def add_image_button(self, image_path, command):
         image = tk.PhotoImage(master=self.root, file=image_path)
@@ -221,6 +228,7 @@ class AnalysisWindow:
         self.root.title("Tracelog analysis: " + self.log_name)
         self.time_slider.configure(to=self.log_info[-1].time)
         self.log_window.reset(self.lines, self.line_colors)
+        self.zmw = None
 
     def slider_update(self, num):
         if self.set_update:
@@ -235,8 +243,8 @@ class AnalysisWindow:
             self.screen.blit(font.render(l, False, tuple(util.TEXT_COLOR)), (x, y + (font.size("|")[1] + spacing)*i))
 
     def inches_to_pixels(self, coords):
-        return (int(coords[0] * (self.screen_dimensions[0] / self.field_dimensions[0])), \
-            int(coords[1] * (self.screen_dimensions[1] / self.field_dimensions[1])))
+        return (round(coords[0] * (self.screen_dimensions[0] / self.field_dimensions[0])), \
+            round(coords[1] * (self.screen_dimensions[1] / self.field_dimensions[1])))
 
     def update_time_slider(self):
         self.set_update = True
@@ -268,7 +276,7 @@ class AnalysisWindow:
         pygame.draw.line(self.screen, (0, 255, 0), target_pos, abs_heading_target, 5)
 
     def draw_timer(self):
-        text_y = self.screen_dimensions[1] - 70 if self.alliance == "BLUE_ALLIANCE" else 40
+        text_y = self.screen_dimensions[1] - 70 if self.alliance != None and "blue" in self.alliance.lower() else 40
         self.render_text("Time: %.3f" % self.stopwatch.get_time(), 15, text_y, self.timer_font)
 
     def draw_robot_info(self):
@@ -277,7 +285,7 @@ class AnalysisWindow:
         x_t, y_t, angle_t = self.log_info[self.step].abs_target.v3
         state = self.log_info[self.step].state_name
         text_x = self.screen_dimensions[0] - max(self.info_font.size("state: " + state)[0], 215)
-        text_y = self.screen_dimensions[1] - 100 if self.alliance == "BLUE_ALLIANCE" else 10
+        text_y = self.screen_dimensions[1] - 100 if self.alliance != None and "blue" in self.alliance.lower() else 10
         self.render_text("x: %12.1f/%.1f\ny: %12.1f/%.1f\nheading: %6.1f/%.1f\nlast time: %.3f\nstate: %s" % (x, x_t, y, y_t, angle, angle_t, last_time, state), \
             text_x, text_y, self.info_font, spacing=3)
 
@@ -315,6 +323,39 @@ class AnalysisWindow:
             l -= 1
         self.set_step(s)
 
+    def get_zebra_motionworks(self):
+        # TODO: make this more flexible
+        if self.match_info == None:
+            messagebox.showerror("Error", "No log file loaded, cannot retrieve Zebra MotionWorks data.")
+            return
+        failed_error = "Something went wrong downloading Zebra MotionWorks data from TheBlueAlliance: "
+        try:
+            # for now the year and event identifier are hardcoded, will soon add parsing thing
+            self.zmw = ZebraMotionWorks(2020, "wasno", self.match_info["@type"], self.match_info["@number"])
+        except ZMWError as e:
+            messagebox.showerror("Error", failed_error + e.message)
+            return
+        except json.decoder.JSONDecodeError:
+            messagebox.showerror("Error", failed_error + "invalid JSON data")
+            return
+        except KeyError:
+            messagebox.showerror("Error", failed_error + "missing JSON content")
+            return
+        messagebox.showinfo("Success", "Zebra MotionWorks data successfully retrieved.")
+
+    def display_zebra_motionworks(self):
+        data = self.zmw.data
+        index = self.zmw.closest_time_index(self.stopwatch.get_time())
+        robots = []
+        for alliance, teams in data.items():
+            robots.extend([(alliance, team, coords_list[index]) for team, coords_list in teams.items()])
+        for robot in robots:
+            color = (255, 0, 0) if robot[0] == "red" else (0, 0, 255)
+            try:
+                pygame.draw.circle(self.screen, color, self.inches_to_pixels(flip_y([(coord * 12) for coord in robot[2]])), 7)
+            except TypeError:
+                pass
+
     def main_loop(self):
         while(1):
             if self.kill:
@@ -333,6 +374,8 @@ class AnalysisWindow:
                     self.auto_choices_window.update()
                 if self.log_window.open:
                     self.log_window.update()
+                if self.zmw:
+                    self.display_zebra_motionworks()
 
             self.draw_timer()
             try:
