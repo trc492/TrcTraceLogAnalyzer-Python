@@ -36,7 +36,7 @@ The button controls (left to right) are as follows:
 * Stop - Pauses and jumps to the beginning of the log.
 * Info - Toggles extra target info vectors (red line is from current pos to target pos, green line represents the target heading).
 
-The `Open` button at the top of the window can be used to open a new log file, and the `Close` button closes the window. The `Info` button displays a dropdown list of menus that can be opened to get more in depth info, including a raw log menu that allows you to click on different lines of the log and be taken to that place in the timeline.
+The `Open` button at the top of the window can be used to open a new log file, and the `Close` button closes the window. The `Info` button displays a dropdown list of menus that can be opened to get more in depth info, including a raw log menu that allows you to click on different lines of the log and be taken to that place in the timeline. It also contains a "Zebra MotionWorks" button, which can be used to pull position data from TheBlueAlliance so where the robot thinks it is and where it actually is can be compared. Note that this does require internet connection.
 
 The timeline at the bottom can be scrolled left and right and moves with the stopwatch timer.
 
